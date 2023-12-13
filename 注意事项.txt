@@ -1,0 +1,9 @@
+1.先发布专题，再发布章节
+2.fb.php放e/admin
+3.后台地址e/admin
+4.后台账号密码 admin  h5Ni2Angk@h5Ni2Angk@ 如果登不上就用下面方法改密码
+
+用phpmyadmin修改sq_enewsuser表里的记录：把password字段的内容改为：“a024187abaf1c7a6392128a90493e99b”；把salt字段的内容改为：“empire”；把salt2字段的内容改为：“empirecms”.
+密码就是：123456
+
+配置文件路径：e/config/config.php

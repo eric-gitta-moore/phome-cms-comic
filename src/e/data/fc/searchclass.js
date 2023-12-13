@@ -1,0 +1,1 @@
+document.write("<option value=\'1\'>|-漫画大全</option><option value=\'2\'>|-漫画章节</option>");

@@ -1,0 +1,22 @@
+<?php
+require("../class/connect.php");
+include('../class/q_functions.php');
+$link=db_connect();
+$empire=new mysqlquery();
+$enews=$_POST['enews'];
+if(empty($enews))
+{
+	$enews=$_GET['enews'];
+}
+if($enews=="AddFeedback")//增加反馈
+{
+	eCheckCloseMods('fb');//关闭模块
+	$doetran=1;
+	AddFeedback($_POST);
+}else{
+	die('1');
+    exit;
+}
+db_close();
+$empire=null;
+?>

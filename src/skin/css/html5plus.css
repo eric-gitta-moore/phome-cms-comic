@@ -1,0 +1,13 @@
+.home,.home01,.home02,.mybooks,.mybooks01,.back,.back01,.topfr,.searchBtn01,.detailtop a,.userinfo .back,.userinfo .setting,.showimg h1,.wap,.control_bottom .BtnTop a.stop,.ortherbtn div.fl a,.btnList li.app,.topdown,.hdownapp{display:none;}
+.tophead{background:#f66;padding:20px 0 5px;display:none;}
+.index .tophead,.control_bottom .BtnTop a.list,.control_bottom .BtnTop a.refresh,.control_bottom .BtnTop a.home3{display:block;}
+.tabBtn span a.on{background:#fff;color:#f66}
+.tabBtn span a{font-size:.8em}
+.tabBtn{margin:0px auto;padding:0px}
+.logo{position:absolute;top:20px;left:5px;width:32px;height:32px;background:url(/icon/favicon.png) no-repeat center center;background-size:32px}
+.tsign{top:20px;}
+.ortherbtn div,.ortherbtn div.fc{width:50%}
+.btnList li{width:25%;}
+#applink{display:inline-block;}
+.detailtop a.home#applink,#waplink{display:none;}
+.ht120{width:100%;height:120px;float:left;display:block;}

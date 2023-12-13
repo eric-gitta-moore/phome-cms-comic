@@ -1,0 +1,9 @@
+<table width='100%' border=0 align='center' cellpadding=3 cellspacing=1  class='trpic'>
+[!--empirenews.listtemp--]
+<tr class='tr[!--pic.no--]'> 
+	<td width='50px' align='center' height='50'>[!--pic.no--]</td>
+	<td width='50px' align='center'><img src='[!--pic.viewurl--]' width='35' height='30'><div style="display:none;"><input name=msmallpic[] type=text id='msmallpic[!--pic.no--]' ondblclick=SpOpenChFile(1,'msmallpic[!--pic.no--]') value='[!--pic.smallurl--]'></div></td>
+	<td align='left'><input name=mbigpic[] type=text id='mbigpic[!--pic.no--]' size=80 ondblclick=SpOpenChFile(1,'mbigpic[!--pic.no--]') value='[!--pic.bigurl--]'><div style="display:none;"> <input type=file name=mbigpfile[] size=15><input name=mpicname[] type=text id='mpicname[!--pic.no--]' value='[!--pic.name--]'></div></td>
+</tr>
+[!--empirenews.listtemp--]
+</table>

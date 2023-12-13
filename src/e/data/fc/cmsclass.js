@@ -1,0 +1,1 @@
+document.write("<option value=\'1\' style=\'background:99C4E3\'>|-漫画大全</option><option value=\'2\' style=\'background:99C4E3\'>|-漫画章节</option>");

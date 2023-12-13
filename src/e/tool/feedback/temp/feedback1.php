@@ -1,0 +1,4 @@
+<?
+if(!defined('InEmpireCMS'))
+{exit();}
+?><? include("../../data/template/cp_1.php");?><table width=100% align=center cellpadding=3 cellspacing=1 bgcolor='#DBEAF5'><form name='feedback' method='post' enctype='multipart/form-data' action='../../enews/index.php'><input name='enews' type='hidden' value='AddFeedback'><tr><td width='16%' height=25 bgcolor='ffffff'>错误网址</td><td bgcolor='ffffff'><input name='url' type='text' value=''>(*)</td></tr><tr><td width='16%' height=25 bgcolor='ffffff'>标题</td><td bgcolor='ffffff'><input name='title' type='text' value=''>(*)</td></tr><tr><td width='16%' height=25 bgcolor='ffffff'>信息</td><td bgcolor='ffffff'><textarea name='saytext' cols='60' rows='12'></textarea></td></tr><tr><td bgcolor='ffffff'></td><td bgcolor='ffffff'><input type='submit' name='submit' value='提交'></td></tr></form></table><? include("../../data/template/cp_2.php");?>

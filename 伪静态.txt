@@ -1,0 +1,8 @@
+rewrite ^/search-([0-9]+)-([0-9]+).html?(.*?)$ /e/search/result/index.php?page=$1&searchid=$2;
+rewrite ^/catalog/([0-9]+)(/)?$ /e/action/ShowInfo.php?classid=1&id=$1&tempid=2;
+rewrite ^/user(/)?$ /e/member/login/index.php;
+rewrite ^/task(/)?$ /e/member/task/index.php;
+rewrite ^/fav(/)?$ /e/member/fava/index.php;
+rewrite ^/his(/)?$ /e/member/his/index.php;
+rewrite ^/log(/)?$ /e/member/log/index.php;
+rewrite ^/my(/)?$ /e/member/my/index.php;
